@@ -1,7 +1,7 @@
 # Day-7-task
 AGGREGATE FUNCTIONS
 
-************
+
 Write a query to find the total salary of all employees.
 
 
@@ -89,7 +89,7 @@ Write a query to find the total quantity sold for each product where the total q
 
 select sum(quantity)from order_items group by productid having sum(quantity)>2;
 
-***********
+
 
 
 
