@@ -1,7 +1,7 @@
 # Day-7-task
 AGGREGATE FUNCTIONS
 
-
+************
 Write a query to find the total salary of all employees.
 select sum(salary) from employees;
 Write a query to find the average salary of employees.
@@ -37,6 +37,8 @@ Write a query to display classes having more than 30 students.
 Write a query to find the highest marks scored in each subject.
 Write a query to find the total quantity sold for each product where the total quantity is greater than 100.
 select sum(quantity)from order_items group by productid having sum(quantity)>2;
+
+***********
 
 
 
